@@ -7,7 +7,3 @@ Este é um projeto básico de chatbot com interface web. Ideal para iniciantes q
 - Python 3
 - Flask
 - HTML + CSS + JS
-
-## 🚀 Como rodar
-
-1. Clone o repositório:
