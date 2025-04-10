@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot Simples</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>🤖 Chatbot Simples</h2>
+    <div id="chatbox" class="chat-box"></div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Digite sua mensagem..." autocomplete="off" />
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
